@@ -1,0 +1,60 @@
+// app global css in SCSS form
+.title-card {
+  box-shadow: rgba(35, 255, 229, 0.918);
+  padding: 10px;
+  border-radius: 10px;
+  padding-top: 5px;
+  border-top: 5px solid #09bad5d0;
+}
+
+.table-title {
+  box-shadow: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.app-font {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  color: #3d5170;
+}
+
+
+
+.word-break-read-more {
+  max-width: 250px;
+  overflow: hidden;
+  white-space: nowrap !important;
+  text-overflow: ellipsis;
+  width: 200px;
+  display: inline-block;
+  height: unset;
+}
+
+.size-word-wrap {
+  max-width: 300px;
+  //   max-height: 250px;
+  overflow: hidden;
+  white-space: pre-line !important;
+  text-overflow: break-word;
+  width: 100%;
+  display: inline-block;
+  height: unset;
+}
+
+.three-lines {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.anchor-style {
+  color: #04acca;
+  cursor: pointer;
+  font-weight: bold;
+}
